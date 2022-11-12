@@ -1,7 +1,8 @@
 import React from 'react'
 import { Card, CardContent, Typography } from '@material-ui/core';
+import './infoBox.css'
 
-const Infobox = ({ title, cases, total }) => {
+const infoBox = ({ title, cases, total }) => {
     return (
       <Card className="infoBox">
         <CardContent>
@@ -19,4 +20,4 @@ const Infobox = ({ title, cases, total }) => {
     )
 }
 
-export default Infobox
+export default infoBox

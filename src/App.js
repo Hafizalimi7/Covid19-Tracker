@@ -1,7 +1,7 @@
 import './App.css';
 import { Card, CardContent, FormControl, Select , MenuItem} from '@material-ui/core'
 import { useState, useEffect } from 'react'
-import Infobox from './compnents/infoBox';
+import InfoBox from './compnents/infoBox';
 import Map from './compnents/Map';
 import Table from "./compnents/Table"
 import { sortData } from './util';
@@ -64,9 +64,9 @@ function App() {
           </FormControl>
         </div>
         <div className="app__stats">
-          <Infobox title="Coronavirus Cases" cases={countryInfo.todayCases} total={countryInfo.cases} />
-          <Infobox title="Recovered" cases={countryInfo.todayRecovered} total={countryInfo.recovered} />
-          <Infobox title="Deaths" cases={countryInfo.todayDeaths} total={countryInfo.deaths} />
+          <InfoBox title="Coronavirus Cases" cases={countryInfo.todayCases} total={countryInfo.cases} />
+          <InfoBox title="Recovered" cases={countryInfo.todayRecovered} total={countryInfo.recovered} />
+          <InfoBox title="Deaths" cases={countryInfo.todayDeaths} total={countryInfo.deaths} />
         </div>
         <Map />
       </div>
