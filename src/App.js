@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Infobox from './compnents/infoBox';
 import Map from './compnents/Map';
 import Table from "./compnents/Table"
+import { sortData } from './util';
 
 function App() {
   const [countries, setCountries] = useState([])
@@ -22,7 +23,8 @@ function App() {
               value: item.country.iso2
             }
           ))
-          setTableData(data)
+          const sortedData = sortData(data)
+          setTableData(sortedData)
           setCountries(countries)
         })
     }
