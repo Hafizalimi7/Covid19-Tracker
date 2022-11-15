@@ -1,9 +1,9 @@
 # Covid19 Tracker
 
 Built this in React and firebase. 
-I also got the latest data from the disease.sh and the map from leafletjs.com.
-I used Material UI for the icons in the project. 
-The hosting will be in firebase.
+I also got the latest data from the disease.sh and the map from leafletjs.com
+I used Material UI for the icons in the project
+The hosting will be in firebase
 
 # Screenshots
 ![](screenshots/covidSite.png)
