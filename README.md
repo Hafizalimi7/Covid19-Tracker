@@ -5,6 +5,8 @@ I also got the latest data from the disease.sh and the map from leafletjs.com
 I used Material UI for the icons in the project
 The hosting will be in firebase
 
+Go check it out on covid19-tracker-69a4a.web.app
+
 # Screenshots
 ![](screenshots/covid.png)
 
