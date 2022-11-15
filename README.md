@@ -1,6 +1,6 @@
 # Covid19 Tracker
 
-Shows live covid-19 stats from around the world.\
+Shows live covid-19 stats from around the world
 
 Built this in React and used firebase.\
 I also got the latest data from the disease.sh and the map from leafletjs.com.\
