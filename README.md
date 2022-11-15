@@ -1,3 +1,11 @@
+# Covid19 Tracker
+
+Built this in React and firebase. 
+I also got the latest data from the disease.sh and the map from leafletjs.com.
+I used Material UI for the icons in the project. 
+The hosting will be in firebase.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
