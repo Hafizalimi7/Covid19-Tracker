@@ -6,7 +6,7 @@ I used Material UI for the icons in the project
 The hosting will be in firebase
 
 # Screenshots
-![](screenshots/covidSite.png)
+![](screenshots/covid.png)
 
 
 # Getting Started with Create React App
